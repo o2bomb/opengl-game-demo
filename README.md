@@ -1,4 +1,4 @@
-### OpenGL Game Demo
+# OpenGL Game Demo
 
 ### Dependencies
 
@@ -20,7 +20,7 @@
 ### Running the program
 
 1. Make sure you have the required libraries installed ([Dependencies](#Dependencies))
-2. Navigate to the "OpenGL/build/" directory. This directory should be empty
+2. Navigate to the "OpenGL/build/" directory. This directory should be empty (If build doesn't exist, create it)
 3. In the terminal, run the following command: "cmake .."
 4. In the terminal, run the following command: "make"
 5. Navigate to the "OpenGL/build/bin/3.openGL_tutorial/" directory
@@ -31,11 +31,11 @@
 
 ### Viewing the source code
 
-- All source code is located in the "OpenGL/src/3.openGL_tutorial/sample_2/" directory:
-	-  "Source.cpp" - Contains the bulk of the program code. This is where the program runs from.
-	-  "Camera.h" - A file defining the Camera class, used in "Source.cpp" to define the Camera object
-	-  "Shader.h" - A file defining the Shader class, used in "Source.cpp" to define the lampShader and lightingShader objects
-	-  "lightingFS.fs" and "lightingVS.vs" - Files defining the world's vertex and fragment shaders
-	-  "lampFS.fs" and "lampVS.vs" - Files defining the light source's vertex and fragment shaders
-	-  "stb_image.h" - Defines the stb_image library, used in "Source.cpp" to load in textures
+All source code is located in the "OpenGL/src/3.openGL_tutorial/sample_2/" directory:
+-  "Source.cpp" - Contains the bulk of the program code. This is where the program runs from.
+-  "Camera.h" - A file defining the Camera class, used in "Source.cpp" to define the Camera object
+-  "Shader.h" - A file defining the Shader class, used in "Source.cpp" to define the lampShader and lightingShader objects
+-  "lightingFS.fs" and "lightingVS.vs" - Files defining the world's vertex and fragment shaders
+-  "lampFS.fs" and "lampVS.vs" - Files defining the light source's vertex and fragment shaders
+-  "stb_image.h" - Defines the stb_image library, used in "Source.cpp" to load in textures
 
