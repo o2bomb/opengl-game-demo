@@ -39,3 +39,8 @@ All source code is located in the "OpenGL/src/3.openGL_tutorial/sample_2/" direc
 -  "lampFS.fs" and "lampVS.vs" - Files defining the light source's vertex and fragment shaders
 -  "stb_image.h" - Defines the stb_image library, used in "Source.cpp" to load in textures
 
+
+
+### Screenshots
+![Screenshot 1](image--000.png)
+![Screenshot 2](image--004.png)
